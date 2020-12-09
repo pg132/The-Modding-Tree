@@ -5466,7 +5466,7 @@ addLayer("goalsii", {
                         display(){
                                 let a = "<h3 style='color: #AC4600'>Tokens</h3>: " + formatWhole(player.goalsii.tokens.points["12"]) + "<br>"
                                 let b = "<h3 style='color: #00FF66'>Reward</h3>: +" + formatWhole(getGoalChallengeReward("12")) + "<br>"
-                                let c = "Free <b>Categroy</b> levels"
+                                let c = "Free <b>Category</b> levels"
                                 return a + b + c
                         },
                         unlocked(){
