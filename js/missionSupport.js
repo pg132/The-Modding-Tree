@@ -463,7 +463,7 @@ function updateMissions(diff){
         data.bestMoney = data.bestMoney.max(data.money)
 
         if (isNaN(data.money.mag)) {
-                Decimal(0)
+                data.money = new Decimal(0)
                 console.log(player)
                 console.log(data.money)
         }

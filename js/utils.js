@@ -47,7 +47,7 @@ function format(decimal, precision=2,) {
 	if (isNaN(decimal.sign)||isNaN(decimal.layer)||isNaN(decimal.mag)) {
 		player.hasNaN = true;
 		console.log(decimal)
-		Decimal(0)
+		// Decimal(0)
 		for (i in player){
 			if (player[i] == undefined) continue
 			if (player[i].points != undefined) {
